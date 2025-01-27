@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina principal</title>
+    <link rel="stylesheet" href="css/MiGusto.css">
+</head>
+<body>
+    <div class="container">
+        <div class="dropdown">
+            <button class="btn btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Menú
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="index.html">index</a></li>
+                <li><a class="dropdown-item" href="biografia.html">Biografía</a></li>
+                <li><a class="dropdown-item" href="trabajos.html">Trabajos</a></li>
+                <li><a class="dropdown-item" href="MiGusto.html">Mi Gusto</a></li>
+            </ul>                    
+        </div>
+        <header>
+            <h1>trabajo de semana dos  </h1>
+        </header>
+
+        <section class="section">
+            <img src="imagenes/6ad876d9.png" 
+            alt=" de Bienvenida" class="hero-png">
+
+        </section>
+
+        <div class="divider"></div>
+        <div style="text-align: center; margin: 25px 0;">
+            <button onclick="goToNextPage()" class="btn">Siguiente 2</button>
+        </div>
+
+        <script>
+            function goToNextPage() {
+                window.location.href = "biografia.html";
+            }
+        </script>
+    </div>
+</body>
+</html>

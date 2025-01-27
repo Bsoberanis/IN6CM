@@ -4,10 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biografía</title>
-    <link rel="stylesheet" href="biografia.css">
+    <link rel="stylesheet" href="css/biografia.css">
 </head>
 <body>
     <div class="container">
+        <div class="dropdown">
+            <button class="btn btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Menú
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="index.html">index</a></li>
+                <li><a class="dropdown-item" href="biografia.html">Biografía</a></li>
+                <li><a class="dropdown-item" href="trabajos.html">Trabajos</a></li>
+                <li><a class="dropdown-item" href="MiGusto.html">Mi Gusto</a></li>
+            </ul>                    
+        </div>
+
         <header>
             <h1>Biografía de Brandon Gabriel Soberanis López</h1>
         </header>
@@ -20,6 +32,7 @@
                 nuevas formas de interactuar con la tecnología. Sin embargo, 
                 reconozco que algunas materias como Matemáticas y Física me resultan más complicadas, 
                 y por eso estoy decidido a poner más esfuerzo en ellas este año.</p>
+            <img src="https://example.com/imagen_biografia.jpg" alt="Imagen Biografía" />
         </section>
 
         <div class="divider"></div>
@@ -36,6 +49,7 @@
                 idea de poder desarrollar más habilidades prácticas en el campo de la tecnología.
                 Espero poder aplicar lo que aprenda en mis clases a proyectos personales y prácticas 
                 que me ayuden a fortalecer mis conocimientos.</p>
+            <img src="https://example.com/expectativas_imagen.jpg" alt="Expectativas Año Educativo" />
         </section>
 
         <div class="divider"></div>
@@ -50,6 +64,7 @@
                 mi tiempo. En cuanto a las tareas y proyectos, quiero ser más eficiente. 
                 Planeo asignar tiempos específicos para completar mis tareas diarias para poder 
                 dedicarme también a los proyectos que me apasionan, como mis prácticas de informática.</p>
+            <img src="https://example.com/tiempo_estudios_imagen.jpg" alt="Tiempo Estudio" />
         </section>
 
         <div class="divider"></div>
@@ -64,6 +79,7 @@
             <p>También tengo la intención de adquirir más habilidades en el ámbito de la informática, particularmente en 
                 programación y desarrollo de software. Me gustaría involucrarme más 
                 en proyectos prácticos y seguir aprendiendo sobre nuevas tecnologías que pueda aplicar en mis propios proyectos.</p>
+            <img src="https://example.com/habilidades_imagen.jpg" alt="Habilidades que Deseo Adquirir" />
         </section>
 
         <div class="divider"></div>
@@ -77,7 +93,9 @@
             <p>En resumen, mi meta es avanzar significativamente este año en mis estudios, optimizar mi tiempo para 
                 equilibrar mis tareas escolares y mis proyectos de informática, 
                 y, sobre todo, disfrutar del proceso de aprendizaje.</p>
+            <img src="https://example.com/contexto_academico_imagen.jpg" alt="Contexto Académico" />
         </section>
+
         <div style="text-align: center; margin: 20px 0;">
             <button onclick="goToNextPage()" class="btn">Siguiente 3</button>
         </div>
@@ -87,10 +105,7 @@
                 window.location.href = "MiGusto.html";
             }
         </script>
-
-        
-            
-        </script>
     </div>
 </body>
 </html>
+

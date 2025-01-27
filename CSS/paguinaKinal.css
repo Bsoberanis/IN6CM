@@ -1,0 +1,125 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Fondo claro */
+    color: #333; /* Color de texto oscuro para contraste */
+    margin: 0;
+}
+
+/* Header */
+.header {
+    background-color: #e6f7ff; /* Fondo azul suave */
+    border-bottom: 5px solid #66b3ff; /* Contorno azul claro */
+    padding: 20px 0;
+}
+
+.header .logo {
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav .dropdown-menu {
+    background-color: #ffffff; /* Fondo blanco */
+    border: 2px solid #66b3ff; /* Contorno azul claro */
+}
+
+.nav .dropdown-item {
+    color: #333;
+    padding: 10px;
+}
+
+.nav .dropdown-item:hover {
+    background-color: #66b3ff;
+    color: #fff;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://static.wixstatic.com/media/128120_7f3b9fbf981448809326f69585851cb9~mv2.jpg') no-repeat center center;
+    background-size: cover;
+    color: #333;
+    padding: 100px 20px;
+    text-align: center;
+    border-bottom: 5px solid #66b3ff; /* Contorno azul claro */
+}
+
+.hero h1, .hero p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 255, 0.5); /* Sombra sutil azul */
+}
+
+.hero .btn {
+    background-color: #66b3ff; /* Azul suave */
+    border: 2px solid #66b3ff;
+}
+
+.hero .btn:hover {
+    background-color: #fff;
+    color: #66b3ff;
+}
+
+/* About Section */
+.about {
+    background-color: #f7f7f7; /* Fondo gris claro */
+    padding: 60px 20px;
+    border-top: 5px solid #66b3ff; /* Contorno azul claro */
+}
+
+.about-img {
+    border: 3px solid #66b3ff; /* Contorno azul suave alrededor de la imagen */
+}
+
+/* Services Section */
+.services {
+    background-color: #f0f8ff; /* Fondo azul muy suave */
+    padding: 60px 20px;
+}
+
+.service-item {
+    background-color: #ffffff; /* Fondo blanco */
+    border: 2px solid #66b3ff; /* Contorno azul claro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 255, 0.1); /* Sombra azul suave */
+}
+
+.service-item h3 {
+    text-align: center;
+}
+
+.service-item img {
+    border: 2px solid #66b3ff; /* Contorno azul suave */
+}
+
+/* Contact Section */
+.contact {
+    background-color: #f7f7f7; /* Fondo gris claro */
+    padding: 60px 20px;
+}
+
+.contact-img {
+    border: 3px solid #66b3ff; /* Contorno azul suave alrededor de la imagen */
+}
+
+/* Footer */
+.footer {
+    background-color: #e6f7ff; /* Fondo azul suave */
+    border-top: 5px solid #66b3ff; /* Contorno azul claro */
+    padding: 20px 0;
+}
+
+.footer .btn {
+    background-color: #66b3ff; /* Azul suave */
+    border: 2px solid #66b3ff;
+}
+
+.footer .btn:hover {
+    background-color: #fff;
+    color: #66b3ff;
+}
+
+
